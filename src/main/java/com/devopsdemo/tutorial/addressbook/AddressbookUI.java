@@ -99,7 +99,7 @@ public class AddressbookUI extends UI {
      */
     private void buildLayout() {
         HorizontalLayout actions = new HorizontalLayout(filter, newContact);
-        actions.setWidth("100%");
+        actions.setWidth("99%");
         filter.setWidth("100%");
         actions.setExpandRatio(filter, 1);
 
